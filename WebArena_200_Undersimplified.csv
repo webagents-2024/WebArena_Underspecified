@@ -1,0 +1,855 @@
+Original Task,Ground_Truth_Details,Underspecified Task
+What is the top-1 best-selling product in 2022,"{
+    ""ranking"": ""top-1"",
+    ""category"": ""best-selling product"",
+    ""year"": ""2022""
+}",What is the best-selling product in 2022?
+What is the top-1 best-selling brand in Quarter 1 2022,"{
+    ""ranking"": ""top-1"",
+    ""metric"": ""best-selling"",
+    ""time_period"": ""Quarter 1 2022""
+}",What is the best-selling brand in Quarter 1 2022?
+What is the top-1 best-selling product type in Quarter 1 2022,"{
+    ""metric"": ""top-1 best-selling"",
+    ""product"": ""product type"",
+    ""time_period"": ""Quarter 1 2022""
+}",What is the top-1 best-selling product type?
+What are the top-2 best-selling product in 2022,"{
+    ""ranking"": ""top-2"",
+    ""category"": ""best-selling product"",
+    ""year"": ""2022""
+}",What are the best-selling product in 2022.
+What are the top-3 best-selling product in Jan 2023,"{
+    ""ranking"": ""top-3"",
+    ""category"": ""best-selling product"",
+    ""time period"": ""Jan 2023""
+}",What are the best-selling product in Jan 2023.
+What is the top-1 best-selling product type in Jan 2023,"{
+    ""ranking"": ""top-1"",
+    ""metric"": ""best-selling"",
+    ""product type"": ""product type"",
+    ""time period"": ""Jan 2023""
+}",What is the best-selling product type?
+What are the top-5 best-selling product in 2023,"{
+    ""ranking"": ""top-5"",
+    ""category"": ""best-selling product"",
+    ""year"": ""2023""
+}",What are the best-selling product in 2023.
+Tell me the full address of all international airports that are within a driving distance of 50 km to Carnegie Mellon University,"{
+    ""location"": ""Carnegie Mellon University"",
+    ""distance"": ""50 km"",
+    ""type"": ""international airports"",
+    ""information"": ""full address""
+}",Tell me the full address of all international airports that are within a driving distance to Carnegie Mellon University.
+Tell me the full address of all international airports that are within a driving distance of 5 km to Carnegie Mellon University,"{
+    ""type"": ""international airports"",
+    ""distance"": ""within a driving distance of 5 km"",
+    ""location"": ""Carnegie Mellon University""
+}",Tell me the full address of all international airports that are within a driving distance of Carnegie Mellon University.
+Tell me the full address of all international airports that are within a driving distance of 30 km to Carnegie Art Museum,"{
+    ""location"": ""Carnegie Art Museum"",
+    ""radius"": ""30 km"",
+    ""type"": ""international airports"",
+    ""information"": ""full address""
+}",Tell me the full address of all international airports that are within a driving distance to Carnegie Art Museum.
+Tell me the full address of all US international airports that are within a driving distance of 60 km to Niagara Falls,"{
+    ""location"": ""Niagara Falls"",
+    ""distance"": ""60 km"",
+    ""country"": ""US"",
+    ""type"": ""international airports"",
+    ""information"": ""full address""
+}",Tell me the full address of all US international airports that are within a driving distance of Niagara Falls.
+"Tell me the the number of reviews that our store received by far that mention term ""disappointed""","{
+    ""task"": ""number of reviews"",
+    ""store"": ""our store"",
+    ""term"": ""disappointed""
+}",Tell me the number of reviews that our store received by far.
+"Tell me the the number of reviews that our store received by far that mention term ""satisfied""","{
+    ""request"": ""number of reviews"",
+    ""store"": ""our store"",
+    ""term"": ""satisfied""
+}",Tell me the number of reviews that our store received by far.
+"Tell me the the number of reviews that our store received by far that mention term ""decent""","{
+    ""request"": ""number of reviews"",
+    ""store"": ""our store"",
+    ""term"": ""decent""
+}",Tell me the number of reviews that our store received by far.
+"Tell me the the number of reviews that our store received by far that mention term ""not useful""","{
+    ""task"": ""number of reviews"",
+    ""store"": ""our store"",
+    ""term"": ""not useful""
+}",Tell me the number of reviews that our store received by far.
+"Tell me the the number of reviews that our store received by far that mention term ""best""","{
+    ""task"": ""number of reviews"",
+    ""store"": ""our store"",
+    ""term"": ""best""
+}",Tell me the number of reviews that our store received by far.
+"Compare the time for walking and driving route from 5000 Fifth Avenue, Pittsburgh to UPMC family health center","{
+    ""start_location"": ""5000 Fifth Avenue, Pittsburgh"",
+    ""end_location"": ""UPMC family health center"",
+    ""modes_of_transport"": [""walking"", ""driving""]
+}",Compare the time for walking and driving route to UPMC family health center.
+Compare the time for walking and driving route from AMC Waterfront to Carnegie Mellon University,"{
+    ""modes of transportation"": [""walking"", ""driving""],
+    ""starting location"": ""AMC Waterfront"",
+    ""destination"": ""Carnegie Mellon University""
+}",Compare the time for route from AMC Waterfront to Carnegie Mellon University.
+Compare the time for walking and driving route from AMC Waterfront to Univ of Pittsburgh,"{
+    ""start_location"": ""AMC Waterfront"",
+    ""end_location"": ""Univ of Pittsburgh"",
+    ""modes_of_transport"": [""walking"", ""driving""]
+}",Compare the time for route from AMC Waterfront to Univ of Pittsburgh.
+Compare the time for walking and driving route from Carnegie Science Center to Carnegie Mellon University,"{
+    ""start_location"": ""Carnegie Science Center"",
+    ""end_location"": ""Carnegie Mellon University"",
+    ""modes_of_transport"": [""walking"", ""driving""]
+}",Compare the time for walking and driving route.
+Compare the difference in time for walking and driving route from Randyland to Carnegie Mellon University,"{
+    ""start_location"": ""Randyland"",
+    ""end_location"": ""Carnegie Mellon University"",
+    ""modes_of_transport"": [""walking"", ""driving""]
+}",Compare the difference in time for walking and driving route.
+"List out reviewers, if exist, who mention about ear cups being small","{
+    ""action"": ""List out reviewers"",
+    ""condition"": ""mention about ear cups being small""
+}",List out reviewers.
+"List out reviewers, if exist, who mention about under water photo","{
+    ""action"": ""List out reviewers"",
+    ""condition"": ""if exist"",
+    ""topic"": ""under water photo""
+}",List out reviewers who mention about photo.
+"List out reviewers, if exist, who mention about good fingerprint resistant","{
+    ""task"": ""List out reviewers"",
+    ""condition"": ""mention about good fingerprint resistant""
+}",List out reviewers.
+"List out reviewers, if exist, who mention about price being unfair","{
+    ""action"": ""List out reviewers"",
+    ""condition"": ""if exist"",
+    ""mention"": ""price being unfair""
+}",List out reviewers.
+"List out reviewers, if exist, who mention about average print quality","{
+    ""action"": ""List out reviewers"",
+    ""condition"": ""if exist"",
+    ""mention"": ""average print quality""
+}","List out reviewers, if exist."
+"List out reviewers, if exist, who mention about complain of the customer service","{
+    ""action"": ""List out reviewers"",
+    ""condition"": ""if exist"",
+    ""complaint"": ""customer service""
+}","List out reviewers, if exist."
+Tell me the count of comments that have received more downvotes than upvotes for the user who made the latest post on the Showerthoughts forum.,"{
+    ""action"": ""count of comments"",
+    ""condition"": ""received more downvotes than upvotes"",
+    ""user"": ""made the latest post"",
+    ""forum"": ""Showerthoughts""
+}",Tell me the count of comments that have received more downvotes than upvotes on the Showerthoughts forum.
+Tell me the count of comments that have received more downvotes than upvotes for the user who made the latest post on the Worcester forum.,"{
+    ""action"": ""count of comments"",
+    ""condition"": ""received more downvotes than upvotes"",
+    ""user"": ""made the latest post"",
+    ""forum"": ""Worcester""
+}",Tell me the count of comments that have received more downvotes than upvotes on the Worcester forum.
+Tell me the count of comments that have received more downvotes than upvotes for the user who made the latest post on the DIY forum.,"{
+    ""action"": ""count of comments"",
+    ""condition"": ""more downvotes than upvotes"",
+    ""user"": ""user who made the latest post"",
+    ""forum"": ""DIY forum""
+}",Tell me the count of comments for the user who made the latest post on the DIY forum.
+Tell me the count of comments that have received more downvotes than upvotes for the user who made the latest post on the space forum.,"{
+    ""action"": ""count of comments"",
+    ""condition"": ""received more downvotes than upvotes"",
+    ""user"": ""user who made the latest post"",
+    ""forum"": ""space forum""
+}",Tell me the count of comments that have received more downvotes than upvotes on the space forum.
+Tell me the count of comments that have received more downvotes than upvotes for the user who made the latest post on the photoshopbattles forum.,"{
+    ""action"": ""count of comments"",
+    ""condition"": ""received more downvotes than upvotes"",
+    ""user"": ""user who made the latest post"",
+    ""forum"": ""photoshopbattles""
+}",Tell me the count of comments that have received more downvotes than upvotes on the photoshopbattles forum.
+"I will arrive Pittsburgh Airport soon. Provide the name of a Hilton hotel in the vicinity, if available. Then, tell me the the walking distance to the nearest supermarket own by a local company from the hotel.","{
+    ""arrival_location"": ""Pittsburgh Airport"",
+    ""hotel_chain"": ""Hilton"",
+    ""hotel_vicinity"": ""Pittsburgh Airport"",
+    ""supermarket_ownership"": ""local company"",
+    ""distance_metric"": ""walking distance""
+}","I will arrive Pittsburgh Airport soon. Provide the name of a Hilton hotel in the vicinity, if available. Then, tell me the walking distance to the nearest supermarket from the hotel."
+"I will arrive Pittsburgh Airport soon. Provide the name of a Hilton hotel in the vicinity, if available. Then, tell me the the shortest walking distance to a supermarket from the hotel.","{
+    ""arrival_location"": ""Pittsburgh Airport"",
+    ""hotel_chain"": ""Hilton"",
+    ""information_needed"": ""shortest walking distance to a supermarket from the hotel""
+}","I will arrive Pittsburgh Airport soon. Provide the name of a Hilton hotel in the vicinity, if available."
+"I will arrive Pittsburgh Airport soon. Provide the name of a Hyatt hotel in the vicinity, if available. Then, tell me the the shortest walking time to a supermarket from the hotel.","{
+    ""arrival_location"": ""Pittsburgh Airport"",
+    ""hotel_chain"": ""Hyatt"",
+    ""task"": ""shortest walking time to a supermarket from the hotel""
+}","I will arrive Pittsburgh Airport soon. Provide the name of a hotel in the vicinity, if available. Then, tell me the the shortest walking time to a supermarket from the hotel."
+"I will arrive Pittsburgh Airport soon. Provide the name of a Hyatt hotel in the vicinity, if available. Then, tell me the the minimal driving time to a supermarket from the hotel.","{
+    ""arrival_location"": ""Pittsburgh Airport"",
+    ""hotel_chain"": ""Hyatt"",
+    ""request"": ""minimal driving time to a supermarket from the hotel""
+}","I will arrive Pittsburgh Airport soon. Provide the name of a hotel in the vicinity, if available."
+Check if the social security administration in pittsburgh can be reached in one hour by car from Carnegie Mellon University,"{
+    ""destination"": ""social security administration in Pittsburgh"",
+    ""time"": ""one hour"",
+    ""mode of transport"": ""car"",
+    ""starting point"": ""Carnegie Mellon University""
+}",Check if the social security administration in Pittsburgh can be reached by car from Carnegie Mellon University.
+Check if the police station in pittsburgh can be reached in one hour by car from gates building at CMU,"{
+    ""destination"": ""police station in Pittsburgh"",
+    ""time"": ""one hour"",
+    ""mode of transport"": ""car"",
+    ""starting point"": ""Gates Building at CMU""
+}",Check if the police station in Pittsburgh can be reached by car from Gates Building at CMU.
+Check if the duquesne university in pittsburgh can be reached in one hour by car from pittsburgh airport,"{
+    ""destination"": ""Duquesne University in Pittsburgh"",
+    ""origin"": ""Pittsburgh Airport"",
+    ""time"": ""one hour"",
+    ""mode of transport"": ""car""
+}",Check if the duquesne university in pittsburgh can be reached in one hour from pittsburgh airport.
+Check if the walmart in pittsburgh can be reached in one hour by car from 5600 fifth avenue,"{
+    ""store"": ""walmart"",
+    ""city"": ""pittsburgh"",
+    ""time"": ""one hour"",
+    ""mode of transport"": ""car"",
+    ""starting point"": ""5600 fifth avenue""
+}",Check if the walmart in pittsburgh can be reached by car from 5600 fifth avenue.
+Check if the amc theatre in pittsburgh can be reached in one hour by car from hobart street,"{
+    ""theatre"": ""amc theatre"",
+    ""location"": ""pittsburgh"",
+    ""time"": ""one hour"",
+    ""transportation"": ""car"",
+    ""starting_point"": ""hobart street""
+}",Check if the amc theatre in pittsburgh can be reached by car from hobart street.
+List the top 1 search terms in my store,"{
+    ""quantity"": ""top 1"",
+    ""item"": ""search terms"",
+    ""location"": ""my store""
+}",List the search terms in my store.
+List the top 2 search terms in my store,"{
+    ""number_of_terms"": ""top 2"",
+    ""context"": ""my store""
+}",List the top search terms in my store.
+List the top 3 search terms in my store,"{
+    ""number"": ""top 3"",
+    ""subject"": ""search terms"",
+    ""location"": ""my store""
+}",List the search terms in my store.
+Check out my todos,"{
+    ""action"": ""Check out"",
+    ""object"": ""todos""
+}",Check out
+Check out the most recent open issues,"{
+    ""task"": ""Check out"",
+    ""type"": ""most recent open issues""
+}",Check out the issues.
+"Today is 6/12/2023. Tell me how many fulfilled orders I have over the past month, and the total amount of money I spent.","{
+    ""date"": ""6/12/2023"",
+    ""timeframe"": ""past month"",
+    ""request"": [""number of fulfilled orders"", ""total amount of money spent""]
+}",Tell me how many fulfilled orders I have over the past month.
+"Today is 6/12/2023. Tell me how many fulfilled orders I have over the past four month, and the total amount of money I spent.","{
+    ""date"": ""6/12/2023"",
+    ""time_period"": ""past four months"",
+    ""information_requested"": [""number of fulfilled orders"", ""total amount of money spent""]
+}",Tell me how many fulfilled orders I have over the past four months.
+"Today is 6/12/2023. Tell me how many fulfilled orders I have over the past year, and the total amount of money I spent.","{
+    ""date"": ""6/12/2023"",
+    ""timeframe"": ""past year"",
+    ""task"": [""number of fulfilled orders"", ""total amount of money spent""]
+}","Tell me how many fulfilled orders I have, and the total amount of money I spent."
+"Today is 6/12/2023. Tell me how many fulfilled orders I have over the past six month, and the total amount of money I spent.","{
+    ""date"": ""6/12/2023"",
+    ""timeframe"": ""past six months"",
+    ""task"": [""number of fulfilled orders"", ""total amount of money spent""]
+}",Tell me how many fulfilled orders I have over the past six months.
+How long does it take to walk from Carnegie Mellon University to starbucks on Craig Street?,"{
+    ""starting_location"": ""Carnegie Mellon University"",
+    ""destination"": ""Starbucks on Craig Street"",
+    ""mode_of_transport"": ""walk""
+}",How long does it take to walk to Starbucks on Craig Street?
+How long does it take to walk from Univ of Pittsburgh to starbucks on Craig Street?,"{
+    ""start_location"": ""Univ of Pittsburgh"",
+    ""end_location"": ""starbucks on Craig Street"",
+    ""mode_of_transport"": ""walk""
+}",How long does it take to get to starbucks on Craig Street?
+How long does it take to walk from Carnegie Mellon University to Univ of Pittsburgh?,"{
+    ""start_location"": ""Carnegie Mellon University"",
+    ""end_location"": ""Univ of Pittsburgh"",
+    ""mode_of_transport"": ""walk""
+}",How long does it take to get to Univ of Pittsburgh?
+How long does it take to walk from the starbuck near CMU to Chatham university?,"{
+    ""start_location"": ""Starbucks near CMU"",
+    ""end_location"": ""Chatham University"",
+    ""mode_of_transport"": ""walk""
+}",How long does it take to walk to Chatham University?
+How long does it take to walk from Carnegie Museum of Art to a library at CMU?,"{
+    ""starting_point"": ""Carnegie Museum of Art"",
+    ""destination"": ""a library at CMU"",
+    ""mode_of_transport"": ""walk""
+}",How long does it take to walk to a library at CMU?
+Tell me the closest restaurant(s) to university center at Carnegie Mellon University,"{
+    ""location"": ""university center at Carnegie Mellon University"",
+    ""request"": ""closest restaurant(s)""
+}",Tell me the closest restaurant(s).
+Tell me the closest cafe(s) to CMU Hunt library,"{
+    ""location"": ""CMU Hunt library"",
+    ""request"": ""closest cafe(s)""
+}",Tell me the closest cafe(s).
+Tell me the closest restaurant(s) to CMU Hunt library,"{
+    ""location"": ""CMU Hunt library"",
+    ""request"": ""closest restaurant(s)""
+}",Tell me the closest restaurant(s).
+Tell me the closest restaurant(s) to CMU Posner Hall,"{
+    ""location"": ""CMU Posner Hall"",
+    ""request"": ""closest restaurant(s)""
+}",Tell me the closest restaurant(s).
+Tell me the closest restaurant(s) to CMU Sorrells Library,"{
+    ""location"": ""CMU Sorrells Library"",
+    ""request"": ""closest restaurant(s)""
+}",Tell me the closest restaurant(s).
+Which customer has completed the most number of orders in the entire history?,"{
+    ""query"": ""Which customer has completed the most number of orders"",
+    ""scope"": ""entire history""
+}",Which customer has completed the most number of orders?
+Which customer(s) has completed the second most number of orders in the entire history?,"{
+    ""query"": ""second most number of orders"",
+    ""subject"": ""customer(s)"",
+    ""scope"": ""entire history""
+}",Which customer(s) has completed the most number of orders in the entire history?
+Which customer has placed 2 orders in the entire history?,"{
+    ""query"": ""Which customer has placed 2 orders"",
+    ""scope"": ""entire history""
+}",Which customer has placed 2 orders?
+Which customer has completed the fifth most number of orders in the entire history?,"{
+    ""query"": ""fifth most number of orders"",
+    ""subject"": ""customer"",
+    ""scope"": ""entire history""
+}",Which customer has completed the most number of orders?
+"Among the top 10 post in ""books"" forum, show me the post URLs that recommand a single book","{
+    ""forum"": ""books"",
+    ""top_posts"": 10,
+    ""criteria"": ""recommend a single book""
+}",Show me the post URLs among the top 10 posts in the forum.
+"Among the top 10 post in ""books"" forum, show me the book names from posts that recommand a single book","{
+    ""forum"": ""books"",
+    ""criteria"": ""top 10 posts"",
+    ""condition"": ""recommend a single book""
+}",Show me the book names from posts that recommend a single book.
+"Among the top 10 post in ""books"" forum, show me the author name and the book name from posts that recommand a single book","{
+    ""forum"": ""books"",
+    ""top_posts"": 10,
+    ""details_needed"": [""author name"", ""book name""],
+    ""condition"": ""recommend a single book""
+}",Show me the author name and the book name from posts that recommend a single book.
+"Among the top 10 post in ""books"" forum, is there any post talks about supporting local book stores? If so, tell me the organizations involved","{
+    ""forum"": ""books"",
+    ""topic"": ""supporting local book stores"",
+    ""request"": ""organizations involved""
+}","Check the top 10 posts in the ""books"" forum and tell me the organizations involved."
+"Given the following locations, ['Carnegie Mellon University', 'apple store shadyside', 'starbucks on craig street'], what would be the optimal route to travel through them all in order to minimize total travel time? Please note the journey begins at the first place listed.","{
+    ""locations"": [""Carnegie Mellon University"", ""apple store shadyside"", ""starbucks on craig street""],
+    ""starting_point"": ""Carnegie Mellon University"",
+    ""objective"": ""minimize total travel time""
+}","Given the following locations, ['Carnegie Mellon University', 'apple store shadyside', 'starbucks on craig street'], what would be the optimal route to travel through them all?"
+"Given the following locations, ['Massachusetts Institute of Technology', 'Harvard University', 'Boston Logan International Airport'], what would be the optimal route to travel through them all in order to minimize total travel time? Please note the journey begins at the first place listed.","{
+    ""locations"": [""Massachusetts Institute of Technology"", ""Harvard University"", ""Boston Logan International Airport""],
+    ""start_location"": ""Massachusetts Institute of Technology"",
+    ""objective"": ""minimize total travel time""
+}","Given the following locations, ['Massachusetts Institute of Technology', 'Harvard University', 'Boston Logan International Airport'], what would be the optimal route to travel through them all?"
+"Given the following locations, ['Princeton University', 'Yale University', 'Harvard University'], what would be the optimal route to travel through them all in order to minimize total travel time? Please note the journey begins at the first place listed.","{
+    ""locations"": [""Princeton University"", ""Yale University"", ""Harvard University""],
+    ""start_location"": ""Princeton University"",
+    ""objective"": ""minimize total travel time""
+}","Given the following locations, ['Princeton University', 'Yale University', 'Harvard University'], what would be the optimal route to travel through them all?"
+What is the total count of Pending reviews amongst all the reviews?,"{
+    ""query"": ""total count of Pending reviews"",
+    ""context"": ""all the reviews""
+}",What is the total count of reviews?
+What is the total count of Approved reviews amongst all the reviews?,"{
+    ""query"": ""total count of Approved reviews"",
+    ""scope"": ""all the reviews""
+}",What is the total count of reviews?
+What is the total count of Not Approved reviews amongst all the reviews?,"{
+    ""query"": ""total count of Not Approved reviews"",
+    ""scope"": ""all the reviews""
+}",What is the total count of reviews?
+"What is the duration required to first walk from Carnegie Mellon University to Starbucks on Craig Street, and then drive to Pittsburgh International Airport?","{
+    ""start_location"": ""Carnegie Mellon University"",
+    ""first_destination"": ""Starbucks on Craig Street"",
+    ""second_destination"": ""Pittsburgh International Airport"",
+    ""mode_of_transportation"": [""walk"", ""drive""]
+}","What is the duration required to first walk to Starbucks on Craig Street, and then drive to Pittsburgh International Airport?"
+"What is the duration required to first walk from Univ of Pittsburgh to starbucks on Craig Street, and then drive to Pittsburgh International Airport?","{
+    ""start_location"": ""Univ of Pittsburgh"",
+    ""first_destination"": ""starbucks on Craig Street"",
+    ""final_destination"": ""Pittsburgh International Airport"",
+    ""mode_of_transportation"": [""walk"", ""drive""]
+}",What is the duration required to first walk from Univ of Pittsburgh to starbucks on Craig Street?
+"What is the duration required to first walk from Massachusetts Institute of Technology to Harvard University, and then drive to Boston Logan International Airport?","{
+    ""start_location"": ""Massachusetts Institute of Technology"",
+    ""first_destination"": ""Harvard University"",
+    ""second_destination"": ""Boston Logan International Airport"",
+    ""mode_of_transportation"": [""walk"", ""drive""]
+}","What is the duration required to first walk to Harvard University, and then drive to Boston Logan International Airport?"
+"What is the duration required to first walk from Carnegie Mellon University to apple store shadyside, and then drive to starbucks on craig street?","{
+    ""start_location"": ""Carnegie Mellon University"",
+    ""first_destination"": ""apple store shadyside"",
+    ""second_destination"": ""starbucks on craig street"",
+    ""mode_of_transport"": [""walk"", ""drive""]
+}",What is the duration required to first walk from Carnegie Mellon University to apple store shadyside?
+"From my stay at DoubleTree by Hilton New York Downtown, what's the estimated driving time to reach Keens Steakhouse?","{
+    ""hotel"": ""DoubleTree by Hilton New York Downtown"",
+    ""destination"": ""Keens Steakhouse""
+}",What's the estimated driving time to reach Keens Steakhouse?
+"From my stay at La Quinta Inn near the airport, what's the estimated driving time to reach Carnegie Mellon University?","{
+    ""hotel"": ""La Quinta Inn near the airport"",
+    ""destination"": ""Carnegie Mellon University""
+}",What's the estimated driving time to reach Carnegie Mellon University?
+"From my stay at La Quinta Inn near the airport, what's the estimated driving time to reach Upitt?","{
+    ""hotel"": ""La Quinta Inn near the airport"",
+    ""destination"": ""Upitt""
+}",What's the estimated driving time to reach Upitt?
+"From my stay at red roof inn, what's the estimated driving time to reach Pittsburgh science museum?","{
+    ""starting_location"": ""red roof inn"",
+    ""destination"": ""Pittsburgh science museum""
+}",What's the estimated driving time to reach Pittsburgh science museum?
+Telll me the grand total of invoice 000000001.,"{
+    ""action"": ""Tell me the grand total"",
+    ""invoice_number"": ""000000001""
+}",Tell me the grand total of the invoice.
+Telll me the grand total of invoice 000000002.,"{
+    ""action"": ""Tell me the grand total"",
+    ""invoice_number"": ""000000002""
+}",Tell me the grand total of the invoice.
+Tell me the status of my latest order and when will it arrive,"{
+    ""request"": ""status of my latest order"",
+    ""inquiry"": ""when will it arrive""
+}",Tell me the status of my latest order.
+Tell me the distance to drive from Carnegie Mellon University to the top computer science school in massachusetts,"{
+    ""starting_location"": ""Carnegie Mellon University"",
+    ""destination"": ""top computer science school in Massachusetts""
+}",Tell me the distance to drive from Carnegie Mellon University.
+"Where is the nearest Five Guys to 5700 Penn Ave, and what is the walking distance to it?","{
+    ""restaurant"": ""Five Guys"",
+    ""address"": ""5700 Penn Ave"",
+    ""query"": ""nearest location"",
+    ""distance"": ""walking distance""
+}",Where is the nearest Five Guys to 5700 Penn Ave?
+"Where is the nearest Starbucks to Carnegie Mellon, and what is the walking distance to it?","{
+    ""location"": ""Carnegie Mellon"",
+    ""query"": ""nearest Starbucks"",
+    ""distance"": ""walking distance""
+}",Where is the nearest Starbucks to Carnegie Mellon?
+"Where is the nearest In-N-Out to Upitts, and what is the walking distance to it?","{
+    ""restaurant"": ""In-N-Out"",
+    ""location"": ""Upitts"",
+    ""query"": ""nearest"",
+    ""distance_type"": ""walking distance""
+}",Where is the nearest In-N-Out to Upitts?
+Display the list of issues in the a11yproject/a11yproject.com repository that have labels related to help needed,"{
+    ""repository"": ""a11yproject/a11yproject.com"",
+    ""labels"": ""help needed""
+}",Display the list of issues in the a11yproject/a11yproject.com repository.
+Display the list of issues in the kkroening/ffmpeg-python repository that have labels related to questions,"{
+    ""repository"": ""kkroening/ffmpeg-"",
+    ""labels"": ""questions""
+}",Display the list of issues in the kkroening/ffmpeg-python repository.
+Display the list of issues in the keycloak/keycloak repository that have labels related to flaky-test,"{
+    ""repository"": ""keycloak/keycloak"",
+    ""labels"": ""flaky-test""
+}",Display the list of issues in the keycloak/keycloak repository.
+Display the list of issues in the OpenAPITools/openapi-generator repository that have labels related to OpenAPI Generator CLI,"{
+    ""repository"": ""OpenAPITools/openapi-generator"",
+    ""labels"": ""OpenAPI Generator CLI""
+}",Display the list of issues in the OpenAPITools/openapi-generator repository.
+Display the list of issues in the umano/AndroidSlidingUpPanel repository that have labels related to BUG,"{
+    ""repository"": ""umano/AndroidSlidingUpPanel"",
+    ""label"": ""BUG""
+}",Display the list of issues in the umano/AndroidSlidingUpPanel repository.
+Presents the monthly count of successful orders from May to December 2022 in MM:COUNT format,"{
+    ""timeframe"": ""May to December 2022"",
+    ""format"": ""MM:COUNT""
+}",Presents the monthly count of successful orders in MM:COUNT format.
+Presents the monthly count of successful orders 01/2023-05/2023 in MM:COUNT format,"{
+    ""time_period"": ""01/2023-05/2023"",
+    ""format"": ""MM:COUNT""
+}",Presents the monthly count of successful orders in MM:COUNT format.
+Presents the monthly count of successful orders from Jan to December 2022 in MM:COUNT format,"{
+    ""timeframe"": ""Jan to December 2022"",
+    ""format"": ""MM:COUNT""
+}",Presents the monthly count of successful orders in MM:COUNT format.
+Presents the monthly count of successful orders from Jan to Nov 2022 in MM:COUNT format,"{
+    ""time_period"": ""Jan to Nov 2022"",
+    ""format"": ""MM:COUNT""
+}",Presents the monthly count of successful orders in MM:COUNT format.
+Presents the monthly count of successful orders from Feb to Nov 2022 in MM:COUNT format,"{
+    ""timeframe"": ""Feb to Nov 2022"",
+    ""format"": ""MM:COUNT""
+}",Presents the monthly count of successful orders in MM:COUNT format.
+Show me the customers who have expressed dissatisfaction with Circe fleece?,"{
+    ""product"": ""Circe fleece"",
+    ""action"": ""expressed dissatisfaction""
+}",Show me the customers.
+Show me the customers who have expressed dissatisfaction with Olivia zip jacket?,"{
+    ""product"": ""Olivia zip jacket"",
+    ""action"": ""expressed dissatisfaction"",
+    ""subject"": ""customers""
+}",Show me the customers who have expressed dissatisfaction.
+Show me the customers who have expressed dissatisfaction with Antonia racer tank?,"{
+    ""product"": ""Antonia racer tank"",
+    ""feedback"": ""dissatisfaction""
+}",Show me the customers who have expressed feedback with Antonia racer tank.
+Show me the name of the customers who have expressed dissatisfaction with Chloe tank,"{
+    ""request"": ""name of the customers"",
+    ""feedback"": ""expressed dissatisfaction"",
+    ""product"": ""Chloe tank""
+}",Show me the name of the customers who have expressed dissatisfaction.
+Show me the name of the customers who have expressed dissatisfaction with tanks products?,"{
+    ""request"": ""name of the customers"",
+    ""issue"": ""expressed dissatisfaction"",
+    ""product"": ""tanks""
+}",Show me the name of the customers who have expressed dissatisfaction with products?
+"I have jaw bruxism problem, show me something that could alleviate the problem.","{
+    ""condition"": ""jaw bruxism"",
+    ""request"": ""something that could alleviate the problem""
+}",Show me something that could alleviate the problem.
+Tell me the reasons why customers like Ana Running Short,"{
+    ""product"": ""Ana Running Short"",
+    ""request"": ""reasons why customers like""
+}",Tell me the reasons why customers like.
+Tell me the reasons why customers like Circe hooded fleece,"{
+    ""product"": ""Circe hooded fleece"",
+    ""request"": ""reasons why customers like""
+}",Tell me the reasons why customers like.
+Tell me the reasons why customers like Olivia zip jacket,"{
+    ""product"": ""Olivia zip jacket"",
+    ""request"": ""reasons why customers like""
+}",Tell me the reasons why customers like a jacket.
+Tell me the reasons why customers like Circe's products,"{
+    ""subject"": ""reasons"",
+    ""target"": ""customers"",
+    ""object"": ""Circe's products""
+}",Tell me why customers like products.
+What is the price range of wireless earphone in the One Stop Market?,"{
+    ""product"": ""wireless earphone"",
+    ""location"": ""One Stop Market""
+}",What is the price range of wireless earphone?
+What is the price range of teeth grinding mouth guard in the One Stop Market?,"{
+    ""product"": ""teeth grinding mouth guard"",
+    ""store"": ""One Stop Market""
+}",What is the price range of mouth guard in the One Stop Market?
+What is the price range of Canon photo printer in the One Stop Market?,"{
+    ""product"": ""Canon photo printer"",
+    ""location"": ""One Stop Market""
+}",What is the price range of photo printer in the One Stop Market?
+What brands appear most frequently among the top search terms?,"{
+    ""query"": ""brands"",
+    ""criteria"": ""most frequently"",
+    ""context"": ""top search terms""
+}",What brands appear among the top search terms?
+What's the total number of items sold in the most recent 2 orders?,"{
+    ""query"": ""total number of items sold"",
+    ""orders"": ""most recent 2""
+}",What's the total number of items sold in the orders?
+What's the total number of items sold in the most recent 4 orders?,"{
+    ""quantity"": ""total number of items"",
+    ""orders"": ""most recent 4""
+}",What's the total number of items sold in the orders?
+What's the total number of items sold in the most recent 5 orders?,"{
+    ""query"": ""total number of items sold"",
+    ""orders"": ""most recent 5""
+}",What's the total number of items sold?
+What's the total number of items sold in the most recent 7 orders?,"{
+    ""query"": ""total number of items sold"",
+    ""timeframe"": ""most recent 7 orders""
+}",What's the total number of items sold?
+How many commits did kilian make to a11yproject on 3/5/2023?,"{
+    ""person"": ""kilian"",
+    ""repository"": ""a11yproject"",
+    ""date"": ""3/5/2023""
+}",How many commits did kilian make to a11yproject?
+How many commits did Eric make to a11yproject on 3/2?,"{
+    ""person"": ""Eric"",
+    ""repository"": ""a11yproject"",
+    ""date"": ""3/2""
+}",How many commits were made to a11yproject on 3/2?
+How many commits did Eric and Kilian make to a11yproject on 1/3/2023?,"{
+    ""contributors"": [""Eric"", ""Kilian""],
+    ""repository"": ""a11yproject"",
+    ""date"": ""1/3/2023""
+}",How many commits did Eric and Kilian make to a11yproject?
+What is the estimated driving time between the city where the Liberty Bell is located and the home city of Pirates?,"{
+    ""starting_city"": ""city where the Liberty Bell is located"",
+    ""destination_city"": ""home city of Pirates""
+}",What is the estimated driving time between the city where the Liberty Bell is located and the home city?
+What is the estimated driving time between the big apple and the city with the most authentic Philly cheesesteaks?,"{
+    ""start_location"": ""the big apple"",
+    ""end_location"": ""the city with the most authentic Philly cheesesteaks"",
+    ""query"": ""estimated driving time""
+}",What is the estimated driving time between the big apple and the city with the most authentic?
+What is the estimated driving time between the hometown of Joe Biden and Bridgeport?,"{
+    ""person"": ""Joe Biden"",
+    ""destination"": ""Bridgeport""
+}",What is the estimated driving time between the hometown and Bridgeport?
+What is the estimated driving time between the city of Niagara Falls and the city of Yale University?,"{
+    ""start_location"": ""city of Niagara Falls"",
+    ""end_location"": ""city of Yale University"",
+    ""query"": ""estimated driving time""
+}",What is the estimated driving time between the city of Niagara Falls and the city of Yale?
+How much I spent on food-related shopping during March 2023,"{
+    ""category"": ""food-related shopping"",
+    ""time period"": ""March 2023""
+}",How much I spent on shopping during March 2023.
+How much I spent on hair care and hair style shopping during Jan 2023,"{
+    ""category"": ""hair care and hair style shopping"",
+    ""time_period"": ""Jan 2023""
+}",How much I spent on hair care and hair style shopping.
+How much I spent on home decoration shopping during 1/29/2023,"{
+    ""activity"": ""home decoration shopping"",
+    ""date"": ""1/29/2023""
+}",How much I spent on home decoration shopping.
+How much I spent on food shopping during from mid Jan to the end Jan 2023,"{
+    ""activity"": ""food shopping"",
+    ""time period"": ""mid Jan to the end Jan 2023""
+}",How much I spent on food shopping.
+How much I spent on cooking and food shopping during March 2022,"{
+    ""category"": [""cooking"", ""food shopping""],
+    ""time_period"": ""March 2022""
+}",How much I spent on cooking and food shopping.
+What is the size configuration of the picture frame I bought Sep 2022,"{
+    ""item"": ""picture frame"",
+    ""purchase_date"": ""Sep 2022""
+}",What is the size configuration of the picture frame I bought?
+What is the size configuration of the picture frame I bought 2022,"{
+    ""item"": ""picture frame"",
+    ""year"": ""2022""
+}",What is the size configuration of the picture frame I bought?
+What is the color configuration of the picture frame I bought Sep 2022,"{
+    ""item"": ""picture frame"",
+    ""purchase_date"": ""Sep 2022""
+}",What is the color configuration of the picture frame?
+What is the color configuration of the artifical plants I bought Feb 2023,"{
+    ""item"": ""artificial plants"",
+    ""purchase_date"": ""Feb 2023""
+}",What is the color configuration of the artificial plants?
+What is the price configuration of the fake tree I bought Jan 2023,"{
+    ""item"": ""fake tree"",
+    ""purchase_date"": ""Jan 2023""
+}",What is the price configuration of the fake tree I bought?
+What is the minimum travel time by car from CMU to University of Pittsburgh?,"{
+    ""mode of transport"": ""car"",
+    ""start location"": ""CMU"",
+    ""end location"": ""University of Pittsburgh""
+}",What is the minimum travel time by car to University of Pittsburgh?
+What is the minimum travel time by car from Schenley park to Upitt?,"{
+    ""mode of transportation"": ""car"",
+    ""starting location"": ""Schenley park"",
+    ""destination"": ""Upitt""
+}",What is the minimum travel time from Schenley park to Upitt?
+What is the minimum travel time by car from REI to CMU?,"{
+    ""mode of transport"": ""car"",
+    ""start location"": ""REI"",
+    ""end location"": ""CMU""
+}",What is the minimum travel time by car?
+What is the minimum travel time by car from CMU gates building to Schenley park?,"{
+    ""start_location"": ""CMU gates building"",
+    ""end_location"": ""Schenley park"",
+    ""mode_of_transport"": ""car"",
+    ""query"": ""minimum travel time""
+}",What is the travel time by car from CMU gates building to Schenley park?
+What is the minimum travel time by car from Animal Rescue League of Pittsburgh to Schenley park?,"{
+    ""starting_location"": ""Animal Rescue League of Pittsburgh"",
+    ""destination"": ""Schenley Park"",
+    ""mode_of_transport"": ""car""
+}",What is the minimum travel time by car to Schenley Park?
+"I have a lot of Nintendo Switch game cards now, help me find the best storage option to fit all 11 cards","{
+    ""item"": ""Nintendo Switch game cards"",
+    ""quantity"": 11,
+    ""task"": ""find the best storage option""
+}",Help me find the best storage option for my Nintendo Switch game cards.
+"I have a lot of Nintendo Switch game cards now, help me find the best storage option to fit all 31 cards","{
+    ""item"": ""Nintendo Switch game cards"",
+    ""quantity"": 31,
+    ""task"": ""find the best storage option""
+}",Help me find the best storage option for my Nintendo Switch game cards.
+"I have a lot of Nintendo Switch game cards now, help me find the best storage option to fit all 6 cards","{
+    ""item"": ""Nintendo Switch game cards"",
+    ""quantity"": 6,
+    ""task"": ""find the best storage option""
+}",Help me find the best storage option for my Nintendo Switch game cards.
+"I have a lot of Nintendo Switch game cards now, help me find the best storage option to fit all 23 cards","{
+    ""item"": ""Nintendo Switch game cards"",
+    ""quantity"": 23,
+    ""task"": ""find the best storage option""
+}",Help me find the best storage option for my Nintendo Switch game cards.
+"I have a lot of Nintendo Switch game cards now, help me find the best storage option to fit all 40 cards","{
+    ""item"": ""Nintendo Switch game cards"",
+    ""quantity"": 40,
+    ""task"": ""find the best storage option""
+}",Help me find the best storage option for my Nintendo Switch game cards.
+What are the main criticisms of this product? Please extract the relevant sentences.,"{
+    ""task"": ""extract the main criticisms"",
+    ""object"": ""this product"",
+    ""action"": ""extract the relevant sentences""
+}",What are the main criticisms of this product?
+Tell me the full names of the repositories where I made contributions and they got more than 100 stars?,"{
+    ""action"": ""Tell me the full names of the repositories"",
+    ""condition"": ""where I made contributions and they got more than 100 stars""
+}",Tell me the full names of the repositories where I made contributions.
+Tell me the full names of the repositories where I made contributions and they got the most stars?,"{
+    ""action"": ""Tell me"",
+    ""subject"": ""full names of the repositories"",
+    ""condition"": ""where I made contributions and they got the most stars""
+}",Tell me the full names of the repositories.
+Tell me the full names of the repositories where I made contributions and they got the least stars?,"{
+    ""action"": ""Tell me"",
+    ""subject"": ""full names of the repositories"",
+    ""condition"": ""where I made contributions and they got the least stars""
+}",Tell me the full names of the repositories where I made contributions.
+Tell me the full names of the repositories where I made contributions and they got less than 5 stars?,"{
+    ""action"": ""Tell me the full names of the repositories"",
+    ""condition"": ""where I made contributions and they got less than 5 stars""
+}",Tell me the full names of the repositories where I made contributions.
+Tell me the full names of the repositories where I made contributions and they got no stars?,"{
+    ""action"": ""Tell me the full names"",
+    ""subject"": ""repositories"",
+    ""condition"": ""where I made contributions and they got no stars""
+}",Tell me the full names of the repositories where I made contributions.
+"Open my latest updated issue that has keyword ""better"" in its title to check if it is closed","{
+    ""issue"": ""latest updated"",
+    ""keyword"": ""better"",
+    ""action"": ""check if it is closed""
+}",Open my latest updated issue to check if it is closed.
+"Open my latest updated issue that has keyword ""feature"" in its title to check if it is closed","{
+    ""issue"": ""latest updated"",
+    ""keyword"": ""feature"",
+    ""action"": ""check if it is closed""
+}","Open my latest updated issue that has keyword ""feature"" in its title."
+"Open my latest updated issue that has keyword ""dependency"" in its title to check if it is closed","{
+    ""action"": ""Open"",
+    ""issue"": ""latest updated"",
+    ""keyword"": ""dependency"",
+    ""check"": ""if it is closed""
+}",Open my latest updated issue to check if it is closed.
+"Open my latest updated issue that has keyword ""theme editor"" in its title to check if it is closed","{
+    ""issue"": ""latest updated"",
+    ""keyword"": ""theme editor"",
+    ""action"": ""check if it is closed""
+}","Open my latest updated issue that has keyword ""theme editor"" in its title."
+"Open my latest updated issue that has keyword ""homepage content"" in its title to check if it is closed","{
+    ""issue"": ""latest updated"",
+    ""keyword"": ""homepage content"",
+    ""action"": ""check if it is closed""
+}","Open my latest updated issue that has keyword ""homepage content"" in its title."
+Open my latest created issue that has better in its title to check if it is closed,"{
+    ""action"": ""Open"",
+    ""issue"": ""latest created"",
+    ""title_contains"": ""better"",
+    ""check_status"": ""closed""
+}",Open my latest created issue that has better in its title.
+Open my latest created issue that has feature in its title to check if it is closed,"{
+    ""issue"": ""latest created"",
+    ""title_contains"": ""feature"",
+    ""action"": ""check if it is closed""
+}",Open my latest created issue that has feature in its title.
+Open my latest created issue that has dependency in its title to check if it is closed,"{
+    ""issue"": ""latest created"",
+    ""title_contains"": ""dependency"",
+    ""action"": ""check if it is closed""
+}",Open my latest created issue that has dependency in its title.
+Open my latest created issue that has theme editor in its title to check if it is closed,"{
+    ""issue"": ""latest created"",
+    ""title_contains"": ""theme editor"",
+    ""action"": ""check if it is closed""
+}",Open my latest created issue that has theme editor in its title.
+Open my latest created issue that has homepage content in its title to check if it is closed,"{
+    ""issue"": ""latest created"",
+    ""title_contains"": ""homepage content"",
+    ""action"": ""check if it is closed""
+}",Open my latest created issue to check if it is closed.
+Give me the SKU of the products that have 10 units left,"{
+    ""request"": ""SKU"",
+    ""condition"": ""10 units left""
+}",Give me the SKU of the products.
+Give me the name of the products that have 0 units left,"{
+    ""request"": ""name of the products"",
+    ""condition"": ""0 units left""
+}",Give me the name of the products.
+Give me the brand of the products that have 3 units left,"{
+    ""quantity"": ""3 units"",
+    ""request"": ""brand of the products""
+}",Give me the brand of the products.
+Give me the product names and the sizes of the products that have 2-3 units left,"{
+    ""request"": ""product names and sizes"",
+    ""quantity"": ""2-3 units left""
+}",Give me the product names and the sizes of the products.
+Give me the SKU of the products that have 1-3 units left,"{
+    ""request"": ""SKU"",
+    ""quantity_range"": ""1-3 units""
+}",Give me the SKU of the products.
+Tell me the total cost of my latest pending order?,"{
+    ""request"": ""total cost"",
+    ""order_status"": ""latest pending""
+}",Tell me the cost of my latest order?
+Tell me the total cost of my latest complete order?,"{
+    ""request"": ""total cost"",
+    ""order"": ""latest complete""
+}",Tell me the total cost of my order?
+Tell me the total cost of my latest processing order?,"{
+    ""request"": ""total cost"",
+    ""order"": ""latest processing order""
+}",Tell me the total cost?
+Tell me the total cost of my latest non-cancelled order?,"{
+    ""request"": ""total cost"",
+    ""order"": ""latest non-cancelled""
+}",Tell me the total cost of my latest order?
+Get the total payment amount of the last 2 completed orders,"{
+    ""action"": ""Get the total payment amount"",
+    ""orders"": ""last 2 completed""
+}",Get the total payment amount of the orders.
+Get the total payment amount of the last 5 completed orders,"{
+    ""action"": ""Get the total payment amount"",
+    ""orders"": ""last 5 completed""
+}",Get the total payment amount of the orders.
+Get the total payment amount of the last 5 pending orders,"{
+    ""action"": ""Get the total payment amount"",
+    ""orders"": ""last 5 pending""
+}",Get the total payment amount of the orders.
+Compare the payment difference of the last 4 cancelled orders and completed orders,"{
+    ""task"": ""Compare the payment difference"",
+    ""orders"": ""last 4 cancelled orders and completed orders""
+}",Compare the payment difference of the orders.
+Get the total payment amount of the last 5 non-cancelled orders,"{
+    ""action"": ""Get the total payment amount"",
+    ""orders"": ""last 5 non-cancelled""
+}",Get the total payment amount of the last 5 orders.
+Get the customer name of the most recent cancelled order,"{
+    ""action"": ""Get"",
+    ""information"": ""customer name"",
+    ""order status"": ""most recent cancelled""
+}",Get the customer name of the most recent order.
+Get the order ID of the newest pending order,"{
+    ""action"": ""Get the order ID"",
+    ""order_status"": ""newest pending""
+}",Get the order ID of the newest order.
+Get the billing name of the oldest complete order,"{
+    ""information"": ""billing name"",
+    ""order"": ""oldest complete""
+}",Get the billing name of the complete order.
+Get the customer name of the earliest fraud suspect order,"{
+    ""information"": ""customer name"",
+    ""criteria"": ""earliest fraud suspect order""
+}",Get the customer name of the fraud suspect order.
+Get the date of the most recent canlled order,"{
+    ""task"": ""Get the date"",
+    ""order_status"": ""most recent cancelled order""
+}",Get the date.
+Get the purchase date and order id of the most recent pending order,"{
+    ""details"": [""purchase date"", ""order id""],
+    ""order status"": ""most recent pending""
+}",Get the purchase date of the most recent pending order.
+Get the product name and discounted price (low to high) of the most recent completed order,"{
+    ""details"": ""product name and discounted price (low to high)"",
+    ""order"": ""most recent completed""
+}",Get the product name and discounted price (low to high) of the order.
